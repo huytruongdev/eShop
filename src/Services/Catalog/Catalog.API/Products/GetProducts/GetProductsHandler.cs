@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-
-namespace Catalog.API.Products.GetProducts;
+﻿namespace Catalog.API.Products.GetProducts;
 
 public record GetProductsQuery() : IQuery<GetProductsResult>;
 public record GetProductsResult(IEnumerable<Product> Products);
